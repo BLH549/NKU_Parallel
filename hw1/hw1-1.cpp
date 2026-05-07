@@ -69,7 +69,6 @@ float array_sum_unroll8(const vector<float>& arr) {
 
 // ================= 主函数与测试逻辑 =================
 int main() {
-    // 补全了 8192 规模，与原数据对齐
     vector<int> matrix_sizes = {256, 1024, 2048, 4096, 8192};
     
     cout << "================ Experiment 1: Matrix-Vector Inner Product (Multi-Scale Test) ================\n";
