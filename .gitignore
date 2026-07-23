@@ -1,0 +1,22 @@
+# Local environments and editor settings
+.venv/
+.claude/
+
+# Local experiment notes
+Final*.md
+
+# LaTeX build products
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+
+# Build products
+build/
+main
+correctness_guess
+cuda/cuda_fused_test
